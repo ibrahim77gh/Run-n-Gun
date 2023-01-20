@@ -11,6 +11,10 @@ public class OnPlayUIManager : MonoBehaviour
     public static int killCount;
     public TextMeshProUGUI highScore;
 
+    private void OnEnable()
+    {
+        FindObjectOfType<Audio_Manager>().Play("RunMusic");
+    }
 
 
     private void Start()

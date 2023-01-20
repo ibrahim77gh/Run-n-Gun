@@ -747,15 +747,15 @@ MonoBehaviour:
   waves:
   - name: Wave 1
     enemy: {fileID: 6288286351306475582, guid: 290e462f20b5fbc4d9075eef25fe389f, type: 3}
-    enemyCount: 2
-    rate: 1
-  - name: Wave 2
-    enemy: {fileID: 6288286351306475582, guid: 290e462f20b5fbc4d9075eef25fe389f, type: 3}
     enemyCount: 3
     rate: 1
   - name: Wave 2
+    enemy: {fileID: 6288286351306475582, guid: 290e462f20b5fbc4d9075eef25fe389f, type: 3}
+    enemyCount: 6
+    rate: 1
+  - name: Wave 2
     enemy: {fileID: 6288286351306475582, guid: 557a373ca2577674fa0a9d3e134bae1e, type: 3}
-    enemyCount: 2
+    enemyCount: 3
     rate: 1
   spawnPoints:
   - {fileID: 1455352993}
@@ -6943,7 +6943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: -0.000061035156}
   m_SizeDelta: {x: 0, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1065293047
@@ -7511,7 +7511,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96267309140e90d4cb51637cbe7a8297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - soundName: RunMusic
+    clip: {fileID: 8300000, guid: 9337c6cb7abc0a945bf632943156bc2f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!4 &1210272879
 Transform:
   m_ObjectHideFlags: 0

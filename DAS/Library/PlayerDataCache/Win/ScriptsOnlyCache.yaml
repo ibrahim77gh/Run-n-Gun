@@ -95,6 +95,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -1231,12 +1233,6 @@ ScriptsOnlyBuild:
     className: Patrol
   - hash:
       serializedVersion: 2
-      Hash: 575314811ece4dc0f1fc9563a6fccb15
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Wall_Run
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1359,4 +1355,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Level 1.unity
-  playerPath: D:/Unity/Projects/DAS/Builds/Build_5/DAS.exe
+  playerPath: E:/Github repos/Run-n-Gun/DAS/Builds/Build_6/DAS.exe
